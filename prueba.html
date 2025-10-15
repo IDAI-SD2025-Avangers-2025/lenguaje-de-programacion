@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla con estilos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7t7t0Fj4rE5sH1vS41Lpt4M1Nl4Q8v5P5l6S5q8QG1z4Q4C4D4A4g==" crossorigin="anonymous" referrerpolicy="no-referrer" /><style>
+    table{
+        margin: 50px auto 0; 
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        border-collapse: collapse;
+    }
+    table th,
+    table td{
+        border: 2px solid #dee2e6;
+        padding: 8px 15px;
+    }
+    
+    table th,
+    
+    table th,
+    table td:first-child { 
+        background-color:#17a2b8;
+        color: #fff;
+        font-weight: 600;
+    }
+    table td img {
+        margin-right: 15px;
+        width: 20px; 
+        height: 20px;
+        cursor: pointer;
+    }
+
+    table td img:nth-child(1) {
+       
+    }
+    
+    
+    table td i {
+        margin-right: 15px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    table td i:nth-child(1){
+        color: #17a2b8; 
+    }
+    table td i:nth-child(2){
+        color: #28a745;
+    }
+    table td i:nth-child(3){
+        color: #dc3545; 
+        margin-right: 0px;
+    }
+
+    table tr:nth-child(odd){
+        background-color: rgba(0, 0, 0, 0.05); 
+    }
+    
+    table tr:hover{
+        background-color: rgba(0, 0, 0, 0.1); 
+    }
+    
+    table tr i:hover,
+    table tr img:hover { 
+        opacity: 0.7;
+    }
+</style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    ID
+                </th>
+                <th>
+                    Nombres </th>
+                <th>
+                    Apellidos </th>
+                <th>Correo Electrónico </th>
+                <th>
+                    Opciones
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>12345</td>
+                <td>Fernando</td>
+                <td>Hernández</td>
+                <td>correo@ejemplo.com </td>
+                <td>
+                    <i class="fa-solid fa-circle-info"><img src="../lenguaje-de-programacion/iconos/circle-info-solid-full.svg"></i>
+                    <i class="fa-solid fa-pen-to-square"><img src="../lenguaje-de-programacion/iconos/pen-to-square-regular-full.svg"></i>
+                    <i class="fa-solid fa-trash"><img src="../lenguaje-de-programacion/iconos/trash-solid-full.svg"></i>
+                 </td>
+            </tr>
+            <tr>
+                <td>123</td>
+                <td>Emilio</td>
+                <td>Colorado</td>
+                <td>correo2@ejemplo.com</td>
+                <td>
+                    <i class="fa-solid fa-circle-info"><img src="../lenguaje-de-programacion/iconos/circle-info-solid-full.svg"></i>
+                    <i class="fa-solid fa-pen-to-square"><img src="../lenguaje-de-programacion/iconos/pen-to-square-regular-full.svg"></i>
+                    <i class="fa-solid fa-trash"><img src="../lenguaje-de-programacion/iconos/trash-solid-full.svg"></i>
+                </td>
+            </tr>
+            <tr>
+                <td>4545</td>
+                <td>Jorge</td>
+                <td>Rodríguez</td>
+                <td>correo3@ejemplo.com</td>
+                <td>
+                   <i class="fa-solid fa-circle-info"><img src="../lenguaje-de-programacion/iconos/circle-info-solid-full.svg"></i>
+                    <i class="fa-solid fa-pen-to-square"><img src="../lenguaje-de-programacion/iconos/pen-to-square-regular-full.svg"></i>
+                    <i class="fa-solid fa-trash"><img src="../lenguaje-de-programacion/iconos/trash-solid-full.svg"></i>
+                </td>
+            </tr>
+            <tr>
+                <td>4545</td>
+                <td>Jorge</td>
+                <td>Rodríguez</td>
+                <td>correo4@ejemplo.com</td>
+                <td>
+                    <i class="fa-solid fa-circle-info"><img src="../lenguaje-de-programacion/iconos/circle-info-solid-full.svg"></i>
+                    <i class="fa-solid fa-pen-to-square"><img src="../lenguaje-de-programacion/iconos/pen-to-square-regular-full.svg"></i>
+                    <i class="fa-solid fa-trash"><img src="../lenguaje-de-programacion/iconos/trash-solid-full.svg"></i>
+                </td>
+            </tr>
+            <tr>
+                <td>4545</td>
+                <td>Jorge</td>
+                <td>Rodríguez</td>
+                <td>correo5@ejemplo.com</td>
+                <td>
+                    <i class="fa-solid fa-circle-info"><img src="../lenguaje-de-programacion/iconos/circle-info-solid-full.svg"></i>
+                    <i class="fa-solid fa-pen-to-square"><img src="../lenguaje-de-programacion/iconos/pen-to-square-regular-full.svg"></i>
+                    <i class="fa-solid fa-trash"><img src="../lenguaje-de-programacion/iconos/trash-solid-full.svg"></i>
+                </td>
+            </tr>
+            <tr>
+                <td>4545</td>
+                <td>Jorge</td>
+                <td>Rodríguez</td>
+                <td>correo6@ejemplo.com</td>
+                <td>
+                   <i class="fa-solid fa-circle-info"><img src="../lenguaje-de-programacion/iconos/circle-info-solid-full.svg"></i>
+                    <i class="fa-solid fa-pen-to-square"><img src="../lenguaje-de-programacion/iconos/pen-to-square-regular-full.svg"></i>
+                    <i class="fa-solid fa-trash"><img src="../lenguaje-de-programacion/iconos/trash-solid-full.svg"></i>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
